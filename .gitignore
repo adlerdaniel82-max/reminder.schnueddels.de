@@ -1,0 +1,58 @@
+# Environment files with credentials
+private/
+.env
+.env.local
+.env.*.local
+public_html/.env
+
+# Composer
+public_html/vendor/
+
+# Logs
+logs/
+*.log
+cron.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Schnueddels local/runtime ignores
+.env
+*.env
+*.log
+logs/
+node_modules/
+vendor/
+private/auth/.env
+backend/.env
+.scripts/db.cnf
+private/.scripts/db.cnf
+private/backups/
+
+LESSONS.md
+AGENT.md
+AGENTS.md
+TODO.md
+ROADMAP.md
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+private/tmp.*/

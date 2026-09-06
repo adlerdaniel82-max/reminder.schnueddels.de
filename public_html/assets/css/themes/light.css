@@ -1,0 +1,27 @@
+/* Schnueddels Dashboard - light theme */
+:root {
+    --bg: #f7f3ea;
+    --ink: #2c2c2c;
+    --muted: #6b6b6b;
+    --card: #ffffff;
+    --card-border: rgba(162, 106, 42, 0.22);
+    --accent: #ede5d0;
+    --shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+    --body-bg: radial-gradient(circle at top, #f0e9d6 0%, #f7f3ea 55%);
+
+    --primary: #2563eb;
+    --danger:  #dc2626;
+
+    --btn-border-size: 4px;
+    --btn-border-color: rgba(255, 255, 255, 0.95);
+    --btn-text: #ffffff;
+    --btn-fill: transparent;
+    --btn-bg-image: linear-gradient(135deg, #48ff27, #2e7d32);
+    --btn-shadow: 0 10px 22px rgba(0, 0, 0, 0.25), inset 0 2px 4px rgba(255, 255, 255, 0.35);
+
+    --btn-secondary-fill: transparent;
+    --btn-secondary-bg-image: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.8));
+    --btn-secondary-text: #2c2c2c;
+    --btn-secondary-border: rgba(200, 200, 200, 0.9);
+    --btn-secondary-shadow: 0 8px 18px rgba(0, 0, 0, 0.18), inset 0 2px 4px rgba(255, 255, 255, 0.3);
+}
